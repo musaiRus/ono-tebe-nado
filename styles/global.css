@@ -8,7 +8,7 @@
 body {
   width: 1100px;
   margin: 0 auto;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;
 }
 
 h1,
@@ -32,4 +32,13 @@ a {
 
 img {
   width: 100%;
+}
+
+.item_no-bullit {
+  list-style-type: none;
+}
+
+.link-active {
+  pointer-events: none;
+  text-decoration: none;
 }
